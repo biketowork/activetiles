@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+   
+   
+
+.tile{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+
+}
+
+.tile.active{
+    background-color: aqua;
+}
